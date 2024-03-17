@@ -10,14 +10,17 @@ public class CricketTeam {
     }
 
     public void recordWin() {
+
         wins++;
     }
 
     public void recordLoss() {
+
         losses++;
     }
 
     public String getRecord() {
+
         return countryCode + " " + wins + "W " + losses + "L";
     }
 
@@ -28,6 +31,7 @@ public class CricketTeam {
     }
 
     public String getCountryCode() {
+
         return countryCode;
     }
 }
